@@ -67,6 +67,54 @@
         <mxCell id="njjuGZDHnANnDg5LqWsR-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10.0.0.73" vertex="1">
           <mxGeometry height="30" width="60" x="167" y="560" as="geometry" />
         </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="proxmox cluster" vertex="1">
+          <mxGeometry height="400" width="203" x="27" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="openwrt" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="main home router" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="administration laptop" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-10" edge="1" parent="1" source="WmAmcoHki_W6qr60VbLa-2" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="WmAmcoHki_W6qr60VbLa-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-11" edge="1" parent="1" source="njjuGZDHnANnDg5LqWsR-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="WmAmcoHki_W6qr60VbLa-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-12" edge="1" parent="1" source="WmAmcoHki_W6qr60VbLa-2" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="WmAmcoHki_W6qr60VbLa-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="470" as="sourcePoint" />
+            <mxPoint x="610" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="172.16.0.1/24" vertex="1">
+          <mxGeometry height="30" width="100" x="490" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="19.168.0.1/24" vertex="1">
+          <mxGeometry height="30" width="100" x="750" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-15" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;" value="homelab network" vertex="1">
+          <mxGeometry height="510" width="620" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="WmAmcoHki_W6qr60VbLa-16" parent="WmAmcoHki_W6qr60VbLa-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="repeater mode" vertex="1">
+          <mxGeometry height="30" width="100" x="500" y="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
